@@ -688,6 +688,18 @@ video {
   flex: 1 1 0%;
 }
 
+.flex-\[\] {
+  flex: ;
+}
+
+.flex-\[55\] {
+  flex: 55;
+}
+
+.flex-\[45\] {
+  flex: 45;
+}
+
 .flex-col {
   flex-direction: column;
 }
