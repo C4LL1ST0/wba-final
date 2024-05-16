@@ -9,8 +9,9 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="flex justify-center">
-  <div class="w-4/5 flex flex-col gap-8">
-    <header class="mt-8 flex flex-wrap justify-evenly gap-5 ">
+  <div class="w-4/5 flex flex-col gap-8 mb-32">
+
+    <header class="mt-8 flex flex-wrap justify-evenly gap-5 md:flex-nowrap">
       <img src="../assets/Rectangle 49.png" alt="" class="w-2/5 rounded-xl">
       <img src="../assets/Rectangle 50.png" alt="" class="w-2/5 rounded-xl">
       <img src="../assets/Rectangle 51.png" alt="" class="w-2/5 rounded-xl">
@@ -18,68 +19,81 @@
 
     <h1 class="text-primary text-2xl text-center font-roboto">Plusy</h1>
 
-    <div class="flex flex-wrap justify-evenly gap-8 text-sm items-baseline">
-      <div class="img-holder">
-        <img src="../assets/Vector.png" alt="" class="w-20">
-        <p class="text-holder">1 ha soukromého lesoparku</p>
-      </div>
+    <div class="flex justify-evenly gap-8 md:flex-col">
 
-      <div class="img-holder">
-        <img src="../assets/Vector(1).png" alt="" class="w-20">
-        <p class="text-holder">Wellness s bazénem a saunou</p>
-      </div>
+      <section class="flex flex-col flex-1 items-center justify-evenly gap-3 md:flex-row">
+        <div class="img-holder">
+          <img src="../assets/Vector.png" alt="" class="w-20">
+          <p class="text-holder">1 ha soukromého lesoparku</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(1).png" alt="" class="w-20">
+          <p class="text-holder">Wellness s bazénem a saunou</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(2).png" alt="" class="w-20">
+          <p class="text-holder">Místnost pro rodinného lékaře</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(3).png" alt="" class="w-20">
+          <p class="text-holder">Shuttle privátní doprava</p>
+        </div>
+      </section>
 
-      <div class="img-holder">
-        <img src="../assets/Vector(2).png" alt="" class="w-20">
-        <p class="text-holder">Místnost pro rodinného lékaře</p>
-      </div>
-
-      <div class="img-holder">
-        <img src="../assets/Vector(3).png" alt="" class="w-20">
-        <p class="text-holder">Shuttle privátní doprava</p>
-      </div>
-
-      <div class="img-holder">
-        <img src="../assets/Vector(4).png" alt="" class="w-20">
-        <p class="text-holder">Venkovní posilovna a tělocvična v interiéru</p>
-      </div>
-
-      <div class="img-holder">
-        <img src="../assets/Vector(5).png" alt="" class="w-20">
-        <p class="text-holder">Umývárna kol a psů</p>
-      </div>
-
-      <div class="img-holder">
-        <img src="../assets/Vector(6).png" alt="" class="w-20">
-        <p class="text-holder">Dětský klub</p>
-      </div>
-
-      <div class="img-holder">
-        <img src="../assets/Vector(7).png" alt="" class="w-20">
-        <p class="text-holder">Přímé napojení na cyklostezku</p>
-      </div>
+      <section class="flex flex-col flex-1 items-center justify-evenly gap-3 md:flex-row">
+        <div class="img-holder">
+          <img src="../assets/Vector(4).png" alt="" class="w-20">
+          <p class="text-holder">Venkovní posilovna a tělocvična v interiéru</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(5).png" alt="" class="w-20">
+          <p class="text-holder">Umývárna kol a psů</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(6).png" alt="" class="w-20">
+          <p class="text-holder">Dětský klub</p>
+        </div>
+  
+        <div class="img-holder">
+          <img src="../assets/Vector(7).png" alt="" class="w-20">
+          <p class="text-holder">Přímé napojení na cyklostezku</p>
+        </div>
+      </section>
+      
     </div>
 
     
     <div>
       
-        <div class="relative flex flex-col items-center gap-3">
-          <img src="../assets/Rectangle 109.png" alt="" class="w-full z-20 rounded-md">
-          <p class="text-font-color w-4/5 font-roboto z-10">Kromě luxusního bydlení nabízí tento projekt také komplexní řadu služeb, které zvyšují kvalitu života svých obyvatel. Moderní wellness centrum se saunou a masážní místností zaručuje odpočinek a relaxaci. Venkovní posilovna se stane oblíbeným místem pro ty, kteří si chtějí užít cvičení na čerstvém vzduchu.</p>
-          <p class="text-font-color w-4/5 font-roboto z-10">Pro rodiny s dětmi je zde připraven dětský klub s různými aktivitami a hernami, kde se budou moci děti bavit a rozvíjet svou kreativitu. Pro spokojenost všech obyvatel projektu je zde dokonce místnost pro rodinného lékaře, který bude mít své pravidelné konzultační hodiny přímo v areálu.</p>
-          <div class="absolute z-0 h-5/6 w-full -bottom-5  rounded-md bg-gradient-to-tr from-[#ABA8BF] from-0% to-[#F5E9F3] to-[38.5%]"></div>
+        <div class="relative flex flex-col items-center gap-3 md:flex-row">
+          <img src="../assets/Rectangle 109.png" alt="" class="w-full z-20 rounded-md flex-1">
+          <div class="z-10 flex flex-col items-center gap-3 flex-1">
+            <p class="text-font-color w-4/5 font-roboto z-10">Kromě luxusního bydlení nabízí tento projekt také komplexní řadu služeb, které zvyšují kvalitu života svých obyvatel. Moderní wellness centrum se saunou a masážní místností zaručuje odpočinek a relaxaci. Venkovní posilovna se stane oblíbeným místem pro ty, kteří si chtějí užít cvičení na čerstvém vzduchu.</p>
+            <p class="text-font-color w-4/5 font-roboto z-10">Pro rodiny s dětmi je zde připraven dětský klub s různými aktivitami a hernami, kde se budou moci děti bavit a rozvíjet svou kreativitu. Pro spokojenost všech obyvatel projektu je zde dokonce místnost pro rodinného lékaře, který bude mít své pravidelné konzultační hodiny přímo v areálu.</p>
+          </div>
+          <div class="absolute z-0 h-5/6 w-full -bottom-5 md:h-full md:w-5/6 md:-right-5 md:bottom-0 rounded-md bg-gradient-to-tr from-[#ABA8BF] from-0% to-[#F5E9F3] to-[38.5%]"></div>
         </div>
     </div>
 
-    <div class="w-full flex flex-col items-center gap-3">
-      <div>
-        <img src="../assets/Rec163.jpeg" alt="" class="w-full rounded-md">
-        <div></div>
-      </div>
-      <div class="w-4/5 mb-8 flex flex-col gap-3">
+    <div class="w-full flex flex-col items-center gap-3 md:flex-row-reverse">
+      <section class="h-full flex-1 flex items-center">
+        <div class="flex justify-end relative">
+          <img src="../assets/Rec163.jpeg" alt="" class="w-full rounded-md z-10 md:w-3/4">
+          <div class="md:absolute md:h-full md:w-3/4 md:-bottom-10 md:left-32 z-0 md:rounded-md md:bg-gradient-to-tr from-[#ABA8BF] from-0% to-[#F5E9F3] to-[38.5%]"></div>
+        </div>
+        
+      </section>
+      
+    
+      <section class="w-4/5 flex flex-col gap-3 flex-1">
         <p class="text-font-color font-roboto">Celý areál je navržen jako uzavřený komunitní prostor, což znamená, že do něj mají přístup pouze jeho obyvatelé. Tím je zajištěna nejen větší míra bezpečí, ale i klidné prostředí pro všechny, kteří chtějí žít ve svém vlastním malém ráji blízko přírody.</p>
         <p class="text-font-color font-roboto">Tento projekt je spojením moderní architektury, přírodního prostředí a rozmanitých služeb, které mají za cíl zpříjemnit život obyvatelům. Skvělá poloha poblíž parku Smetanka a promyšlené dispozice, vysoké standardy a důraz na ekologii dělají z tohoto místa nejen rezidenční komplex, ale celkově harmonický prostor pro kvalitní život.</p>
-      </div>
+      </section>
 
     </div>
       
@@ -88,6 +102,3 @@
   
 </body>
 </html>
-
-
-<!--  -->
