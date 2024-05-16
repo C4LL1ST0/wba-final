@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .img-holder {
+      @apply w-5/12 flex flex-col items-center gap-3;
+    }
+    .text-holder{
+        @apply text-center text-font-color font-roboto font-semibold text-xs;
+    }
+}
